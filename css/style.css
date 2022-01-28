@@ -1,5 +1,6 @@
 main{
-    font-family: roboto ;
+    font-family: roboto;
+    background-color: red;
 }
 
 /********MOBILE********/
@@ -192,10 +193,15 @@ article{
 }
 
 /********TAB********/
-
+@media (min-width:788px) and (max-width:991px){
+    main{
+        background-color: red;
+    }
+}
 /********PC********/
 @media (min-width:992px){
 h2{
+    color:red;
     font-size: 25px;
     margin-left:3%;
 }
