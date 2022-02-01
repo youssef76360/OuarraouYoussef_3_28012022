@@ -1,7 +1,6 @@
 main{
     font-family: Roboto ;
 }
-
 .loader{
     margin:auto;
     margin-top:100px;
@@ -89,9 +88,11 @@ a
 /**********************/
 @media (max-width:787px){
     .logo{
-    margin-left: 26%;
     height:28px;
     border-radius: 0%;
+    }
+    .logo_site{
+    text-align: center;
     }
     .fa-arrow-left{
 
@@ -156,11 +157,9 @@ a
 .number_list{
     border-radius: 20px;
     background-color: #9356dc;
-    /*padding:2px;*/
     width:15px;
     height: 15px;
     font-size:small; 
-    /*margin-right:5%;*/
     position:absolute;
     top:34%;
     left:-4%;
@@ -292,10 +291,11 @@ article{
 @media (min-width:768px) and (max-width:991px){
    
 .logo{
-
     height: 30px;
-    margin-left: 40%;
     border-radius: 0%;
+}
+.logo_site{
+    text-align: center;
 }
 #search{
 
@@ -392,6 +392,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
+
 .fa-arrow-left{
 
     position:absolute;
@@ -463,14 +464,14 @@ header{
     left:85%;
     bottom:40px;
 }
-/*i:hover{
-
+i:hover{
+/*
    opacity:1;
    background: linear-gradient(to bottom left, #9356dc, #ff79da);
    background-clip:content-box;
    -webkit-text-fill-color: transparent;
-   transition: 1s;
-}*/
+   transition: 1s;*/
+}
 .cards{
     
     display: inline-flex;
