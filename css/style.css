@@ -1,5 +1,7 @@
 main{
     font-family: Roboto ;
+    width: auto;
+    
 }
 .loader{
     margin:auto;
@@ -81,6 +83,8 @@ a
 }
 .bold{
     font-weight: bolder;
+    font-size: larger;
+    margin-left:3%;
 
 }
 
@@ -90,6 +94,7 @@ a
     .logo{
     height:28px;
     border-radius: 0%;
+    margin-top:2%;
     }
     .logo_site{
     text-align: center;
@@ -109,7 +114,6 @@ a
 #search{
     background-color: #eaeaea;
     padding:4vw;
-    margin-right: 2%;
     font-weight: bold;
 }
 #introduction{
@@ -126,7 +130,7 @@ a
 }
 .btn{
     color:white;
-    width:70%;
+    width:50%;
     display: flex;
     font-weight: bold;
     border-radius:30px;
@@ -142,6 +146,11 @@ a
 .fonctionnement i{
     margin-right: 5%;
 }
+.cards{
+    width:94%;
+    margin-left:3%;
+    margin-right: 3%;
+}
 .number{
     display:flex;
     align-items: center;
@@ -150,6 +159,9 @@ a
     font-size: small;
     margin-bottom: 8%;
     position:relative;
+    width:94%;
+    margin-left: 3%;
+    margin-right:3%;
 }
 .number i{
     margin-left:5%;
@@ -167,10 +179,12 @@ a
 .restaurant{
     background-color: #f6f6f6;
     padding-top:5%;
+    padding-bottom: 10%;
 }
 .restaurant h3, p{
     margin:0;
     margin-left:3%;
+    font-size: medium;
 }
 figure{
     margin:0;
@@ -196,6 +210,7 @@ img{
 }
 .menu h3{
     margin-left:3%;
+    font-size:medium;
 }
 .card_new{
     border:1px solid transparent;
@@ -213,8 +228,8 @@ img{
 .fa-heart{
     position:relative;
     left:85vw;
-    bottom:45px;
-    font-size:x-large;
+    bottom:35px;
+    font-size:large;
 }
 footer{
     background-color: #353535;
@@ -244,6 +259,7 @@ li{
 
 .menu{
     font-family: roboto;
+    margin-bottom: 10%;
 }
 .title_menu{
     font-family: Shrikhand;
@@ -262,10 +278,12 @@ li{
 article{
     background-color: white;
     border-radius:15px;
-    margin:4%;
-    margin-bottom: 10%;
+    margin:3%;
+    margin-bottom:5%;
     animation-duration: 2s;
     animation-name:bounce;
+    padding-bottom: 10px;
+    padding-top:1px;
 }
 @keyframes bounce {
     from {
@@ -293,6 +311,7 @@ article{
 .logo{
     height: 30px;
     border-radius: 0%;
+    margin-top:2%;
 }
 .logo_site{
     text-align: center;
@@ -327,6 +346,15 @@ article{
     width:20px;
     margin:2%;
 }
+.container_list{
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    width:94%;
+    margin-left:3%;
+    margin-right: 3%;
+}
 i{
     margin:4%;
 }
@@ -336,7 +364,12 @@ i{
     left:85vw;
     bottom:80px;
 }
-
+article{
+    width:94%;
+    margin-left:3%;
+    margin-right: 3%;
+    
+}
 img{
     height:200px;
     border-radius: 25px 25px 0 0;
@@ -373,9 +406,10 @@ footer{
     padding-top:4%;
 }
 footer li{
-    width:23%;
     list-style-type: none;
     font-weight: bold;
+    display:inline-flex;
+    width:23%;
 }
 .logo_footer{
     margin-left:5%;
@@ -391,6 +425,7 @@ h2{
 .logo{
     margin-left: auto;
     margin-right: auto;
+    margin-top:2%;
 }
 
 .fa-arrow-left{
@@ -437,7 +472,7 @@ header{
     background:linear-gradient(170deg, rgba(255, 121, 218, 0.8) 0%, rgba(214, 108, 219, 0.8) 39%, rgba(171, 94, 220, 0.8) 85%, rgba(155, 89, 220, 0.8) 100%);
 }
 .number{
-    width:27%;
+    width:30%;
     display: inline-flex;
     flex-direction: row;
     justify-content:left;
@@ -464,20 +499,12 @@ header{
     left:85%;
     bottom:40px;
 }
-i:hover{
-/*
-   opacity:1;
-   background: linear-gradient(to bottom left, #9356dc, #ff79da);
-   background-clip:content-box;
-   -webkit-text-fill-color: transparent;
-   transition: 1s;*/
-}
 .cards{
     
     display: inline-flex;
     justify-content:space-around;
     flex-wrap: wrap;
-    width:auto;
+    width:100%;
 }
 .cards img{
     height:200px;
@@ -524,6 +551,8 @@ footer li{
     list-style-type: none;
     line-height: 20px;
     font-weight: bold;
+    display:inline-flex;
+    width:20%;
 }
 .logo_footer{
     font-size:1.3rem;
@@ -564,7 +593,8 @@ footer i{
 article{
     background-color: #ffff;
     border-radius: 15px;
-    box-shadow: 4px 4px 2px lightgrey;
+    box-shadow: 2px 2px 2px lightgrey;
+
 }
 }
 
