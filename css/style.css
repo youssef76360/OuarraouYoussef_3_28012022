@@ -355,7 +355,7 @@ img{
     background-clip: border-box;
     color: #fff;
     font-weight: 600;
-    transition: opacity 0.35 ease-in-out;
+    transition: opacity 2s both;
     cursor:pointer;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -473,7 +473,7 @@ i{
     background-clip: border-box;
     color: #fff;
     font-weight: 600;
-    transition: opacity 0.35 ease-in-out;
+    transition: opacity 2s both;
     cursor:pointer;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -619,7 +619,7 @@ header{
     background-clip: border-box;
     color: #fff;
     font-weight: 600;
-    transition: opacity 0.35 ease-in-out;
+    transition: opacity 2s both;
     cursor:pointer;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
