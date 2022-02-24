@@ -609,10 +609,12 @@ header{
     left:0;
     margin-right:4%;
 }
-
 .coeur_vide{
     color:black;
     position: relative;
+    left:35vw;
+    bottom:35px;
+    font-size:large;
 }
 .coeur_plein{
     visibility: hidden;
