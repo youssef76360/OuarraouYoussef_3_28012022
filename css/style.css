@@ -30,7 +30,6 @@ main{
     padding-top:1px;
     display: flex;
     position:relative;
- 
  }
  .starter_name:hover .check{
      animation:slide 0.5s ease-out forwards;
@@ -43,62 +42,56 @@ main{
  .dessert_name:hover .check{
     animation:slide 0.5s ease-out forwards;
     visibility: visible;
-
  }
  .starter_name:hover .fa-check-circle{
     animation:spin 0.5s ease forwards;
 }
  .starter_name:hover .repas{
-     width:60%;  
+    width:60%;  
  }
  .flat_name:hover .repas{
-     width:60%;
+    width:60%;
  }
  .dessert_name:hover .repas{
-     width: 60%;
+    width: 60%;
  }
  .repas{
-     width:80%;
-     
+    width:80%;
  }
  .overflow{
-
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
  }
  .price{
-     width:20%;
-     display: flex;
-     justify-content: center;
-     align-items:flex-end;
-     color:black;
-     font-weight: bold;
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    color:black;
+    font-weight: bold;
     float: right;
     margin-right: 4%;
     margin-bottom: 6%;
  }
  .check{
-     visibility: hidden;
-     position:absolute;
-     height:100%;
-     width:20%;
-     top:0;
-     right:-20%;
-    /* color:#99e2d0;*/
-     display:flex;
-     justify-content: center;
-     align-items: center;
-     background-color:#99e2d0 ;
-     border-top-right-radius: 15px;
-     border-bottom-right-radius: 15px;
-    
+    visibility: hidden;
+    position:absolute;
+    height:100%;
+    width:20%;
+    top:0;
+    right:-20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#99e2d0 ;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
  }
  .fa-check-circle{
    color: white;
  }
- 
- 
  
  @keyframes slide{
      0%{
@@ -121,27 +114,27 @@ main{
 
  }
  .flat_name{
-     animation:opacity 2s ease 0.5s 1 normal both;
+    animation:opacity 2s ease 0.5s 1 normal both;
      
  }
  .dessert_name{
-     animation:opacity 2s ease 1s 1 normal both;
+    animation:opacity 2s ease 1s 1 normal both;
  
  }
  @keyframes opacity{
-     0%, 25%{
+    0%, 25%{
          opacity:0;
      }
-     35%{
+    35%{
          opacity: 0.3;
      }
-     50%{
+    50%{
          opacity: 0.5;
      }
-     75%{
+    75%{
          opacity: 0.8;
      }
-     100%{
+    100%{
          opacity:1;
     
      }
@@ -174,7 +167,6 @@ a
 }
 .margin_left{
     margin-left: 0;
-
 }
 .text_align_center{
     text-align: center;
@@ -350,13 +342,14 @@ img{
     left:85vw;
     bottom:35px;
     font-size:large;
+    color:black;
 }
 .fa-heart:active{
     background: linear-gradient(#9356DC, #FF79DA);
     background-clip: border-box;
     color: #fff;
     font-weight: 600;
-    transition: opacity 2s forward;
+    animation: opacity 2s forwards;
     cursor:pointer;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -401,7 +394,11 @@ li{
         padding-top: 2%;
         z-index:1;
         position:relative;
-        /*bottom:50px;*/
+    }
+
+    .place_heart{
+        display:flex;
+        justify-content: center;
     }
 .padding_btn{
     padding:5%;
@@ -423,11 +420,19 @@ li{
 }
 #search{
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #e5e5e5;
-        font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    font-weight:bold;
+}
+.place_heart{
+    display:flex;
+    justify-content: center;
+}
+.fa-arrow-left{
+    position:absolute;
+    left:0;
 }
 .btn{
     color:white;
@@ -442,14 +447,12 @@ li{
 }
 .number{
     display:flex;
-    justify-content:baseline;
     align-items:center;
 }
 .number_list{
     background-color: #9356dc;
     border-radius: 10px;
-    width:20px;
-    margin:2%;
+    margin:1%;
 }
 .container_list{
     display: flex;
@@ -468,23 +471,18 @@ i{
     position:relative;
     left:85vw;
     bottom:80px;
+    color:black;
 }
 .fa-heart:active{
     background: linear-gradient(#9356DC, #FF79DA);
     background-clip: border-box;
     color: #fff;
     font-weight: 600;
-    transition: opacity 2s forward;
+    animation: opacity 2s forwards;
     cursor:pointer;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-article
-   /* width:94%;
-    margin-left:3%;
-    margin-right: 3%;
-    box-shadow: 1px 1px 2px lightgrey;*/
-    
 img{
     height:200px;
     border-radius: 25px 25px 0 0;
@@ -493,9 +491,7 @@ img{
 figure{
     margin:0;
 }
-h2, h3, p{
-    margin-left: 5%;
-}
+
 .menu h2{
     border-bottom: 2px solid #99e2d0;
     width:10%;
@@ -620,24 +616,19 @@ header{
     visibility: hidden;
     position:absolute;
     left:0;
-    top:0;
+    top: 0;
     color:transparent;
     background: linear-gradient(#9356dc,#ff79da);
     -webkit-background-clip: text;
     background-clip: text;
     background-size: cover;
-    
-
 }
 .coeur_vide:hover .coeur_plein{
     visibility:visible;
-    
 }
 .coeur_vide:hover{
     color:white;
 }
-
-
 .cards{
     display: inline-flex;
     justify-content:space-around;
