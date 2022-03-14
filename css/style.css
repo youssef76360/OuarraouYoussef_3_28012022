@@ -201,19 +201,19 @@ a
 /********MOBILE********/
 /**********************/
 @media (max-width:787px){
-    .logo{
+.logo{
     height:28px;
     border-radius: 0%;
     margin-top:2%;
-    }
-    .logo_site{
+}
+.logo_site{
     text-align: center;
-    }
-    .fa-arrow-left{
+}
+.fa-arrow-left{
     position:absolute;
     left:5%;
     top:2%;
-    }
+}
 .margin_bottom{
     margin-bottom: 5%;
 }
@@ -339,10 +339,17 @@ img{
 }
 .fa-heart{
     position:relative;
-    left:85vw;
+    left:80vw;
     bottom:35px;
     font-size:large;
     color:black;
+}
+.coeur_plein{
+    position:absolute;
+    left:0;
+    bottom:0;
+    visibility: hidden;
+
 }
 .fa-heart:active{
     background: linear-gradient(#9356DC, #FF79DA);
@@ -396,10 +403,7 @@ li{
         position:relative;
     }
 
-    .place_heart{
-        display:flex;
-        justify-content: center;
-    }
+    
 .padding_btn{
     padding:5%;
 }
@@ -430,6 +434,7 @@ li{
     display:flex;
     justify-content: center;
 }
+
 .fa-arrow-left{
     position:absolute;
     left:0;
@@ -453,6 +458,7 @@ li{
     background-color: #9356dc;
     border-radius: 10px;
     margin:1%;
+    width:18px;
 }
 .container_list{
     display: flex;
@@ -469,9 +475,15 @@ i{
 .fa-heart{
     font-size: 25px;
     position:relative;
-    left:85vw;
+    left:46vw;
     bottom:80px;
     color:black;
+}
+.coeur_plein{
+    position:absolute;
+    left:0;
+    bottom:0;
+    visibility: hidden;
 }
 .fa-heart:active{
     background: linear-gradient(#9356DC, #FF79DA);
@@ -557,6 +569,10 @@ header{
     background-color: #e5e5e5;
     font-size:1.3rem;
     padding:20px;
+}
+.place_heart{
+    display:flex;
+    justify-content: center;
 }
 .fa-map-marker-alt{
     margin-right:2%;
