@@ -1,6 +1,8 @@
+
 main{
     font-family: Roboto ;
     width: auto;
+    overflow-x: hidden;
     
 }
 .loader{
